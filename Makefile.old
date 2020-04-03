@@ -1,6 +1,6 @@
-CC = mpiCC -Wall -ggdb
-CC = mpiCC -pg
-CC = mpiCC
+CC = g++ -Wall -ggdb
+CC = g++ -pg
+CC = g++
 
 # default with OpenMP
 # with OpenMP
